@@ -1,4 +1,4 @@
-# Klee-s-Bizarre-Adventure
+# Klee's-Bizarre-Adventure
 Unity rogue-like game. Inspired by The Binding of Isaac mixed with Genshin Impact.
 
 You can shoot and kill slimes with your companion. Pick up items to upgrade yourself.
