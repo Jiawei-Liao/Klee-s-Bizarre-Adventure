@@ -21,7 +21,7 @@ public class EnemyController : MonoBehaviour
 {
     GameObject player;
 
-    public EnemyState currentState = EnemyState.Idle;
+    public EnemyState currentState = EnemyState.Wander;
     public GameObject bulletPrefab;
 
     public EnemyType enemyType;
@@ -56,9 +56,6 @@ public class EnemyController : MonoBehaviour
     {
         switch (currentState)
         {
-            case EnemyState.Idle:
-                Idle();
-                break;
             case EnemyState.Wander:
                 Wander();
                 break;
